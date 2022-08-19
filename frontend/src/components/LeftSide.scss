@@ -1,0 +1,50 @@
+.left__side-container{
+    grid-area: leftside;
+}
+
+.left__side__art-card{
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 8px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: box-shadow 83ms;
+    position: relative;
+    border: none;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 15%), 0 0 0 rgb(0 0 0 / 20%);
+}
+
+.left__side__user-info{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    padding:12px 12px 16px;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.left__side__card-bg{
+    background: url("../assets/card-bg.svg");
+    background-position: center;
+    background-size: 462px;
+    height:100px;
+    padding:12px 12px 16px;
+    margin:-12px -12px 0;
+}
+
+.left__side__photo{
+    box-shadow: none;
+    background-image: url("../assets/photo.svg");
+    width:72px;
+    height:72px;
+    box-sizing: border-box;
+    background-clip: content-box;
+    background-color: white;
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    border:2px solid white;
+    margin:-10px auto 12px;
+    border-radius: 50%;
+}
+
+
+

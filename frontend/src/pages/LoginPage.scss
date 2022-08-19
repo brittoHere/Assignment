@@ -1,0 +1,33 @@
+.login__page-container{
+    text-align: center;
+    background-color:#fff;
+    height:35vh;
+    padding:8%;
+    width:25%;
+    margin: 8% auto 8% auto;
+
+    img{
+        width:135px;
+    }
+
+    input{
+        height:36px;
+        padding:auto;
+        width:75%;
+    }
+}
+
+.login__page-button{
+    margin-top: 5px;
+
+    button{
+        padding:8px;
+        background-color: #D1512D;
+        border:none;
+        cursor: pointer;
+    }
+}
+
+.login__page-footer{
+    margin-top: 5px;
+}

@@ -1,0 +1,55 @@
+.profile__page-container{
+ 
+    background-color:#fff;
+    height:35vh;
+    padding:8%;
+    width:25%;
+    margin: 10% auto 8% auto;
+
+    img{
+        width:135px;
+
+         @media screen and (max-width:768px) {
+            padding:0 5px;
+        }
+    }
+
+    input{
+        height:36px;
+        padding:auto;
+        width:100%;
+    }
+}
+
+.upload__box{
+    background: white;
+    box-shadow: 5px 5px 10px black;
+    width:101.5% !important;
+    outline: none;
+
+    
+}
+
+::-webkit-file-upload-button{
+        color:white;
+        background: #D1512D;
+        padding:10px;
+        border:none;
+        box-shadow: 1px 0 1px 1px #6b4559;
+    }
+
+::-webkit-file-upload-button:hover{
+    cursor:pointer;
+    background: #6b4559;
+}
+
+.profile__page-button{
+    margin-top: 8px;
+
+    button{
+        padding:8px;
+        background-color: #D1512D;
+        border:none;
+        cursor: pointer;
+    }
+}
